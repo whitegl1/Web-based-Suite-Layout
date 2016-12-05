@@ -1,0 +1,115 @@
+/* Add your CSS below */
+.no-js {
+  padding: 0;
+  margin: 0;
+}
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: #ccc;
+}
+
+
+.OuterPanel {
+    position: absolute;
+    padding: 0px;
+    width: 99%;
+    height: 99%;
+    display: inline;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+}
+.HeaderPanel {
+    width: 100%;
+    height: 55px;
+    background-color: rgb(182,60,53);
+    color: #FFF;
+    list-style: none;
+    margin: 0;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+}
+
+.nav {
+  text-decoration: none;
+  background-color: rgb(33,60,118);
+  border-radius: 15px;
+  padding: 12px 24px 12px 24px;
+  margin: auto;
+  display: flex;
+  color: white;
+  margin-top: 13.75px;
+}
+.LogoLink {
+    float: left;
+    width: 200px;
+    height: 55px;
+    padding-right: 10px;
+    background-origin: content-box;
+    background-image: url("../images/gwlogo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+
+}
+
+.NavigationPanel {
+    top: 55px;
+    bottom: 0px;
+    height: 100%;
+    width: 70px;
+    background-color: #191919;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    align: left;
+    color: #FFF;
+    overflow: hidden;
+    margin: 0px;
+  }
+
+.MainPanel {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.ContentPanel {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-grow: 2;
+  align-items: stretch;
+  object-fit: fill;
+}
+
+
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+
+  }

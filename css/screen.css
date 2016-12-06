@@ -1,10 +1,8 @@
 /* Add your CSS below */
-.no-js {
-  padding: 0;
-  margin: 0;
-}
+
 /* Example: adding a background color to the HTML body */
 body {
+  margin: 0;
   /* #ccc is shorthand HEX for a light grey */
   background: #ccc;
 }
@@ -13,7 +11,7 @@ body {
 .OuterPanel {
     position: absolute;
     padding: 0px;
-    width: 99%;
+    width: 100%;
     height: 99%;
     display: inline;
     display: -webkit-box;
@@ -46,9 +44,15 @@ body {
   border-radius: 15px;
   padding: 12px 24px 12px 24px;
   margin: auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-flow: row wrap;
   color: white;
   margin-top: 13.75px;
+  justify-content: flex-end;
 }
 .LogoLink {
     float: left;
@@ -91,7 +95,13 @@ body {
 
 }
 
+object {
+  width: 100%;
+
+}
+
 .ContentPanel {
+  width: 100%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

@@ -5,6 +5,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Web Suite</title>
         <meta name="description" content="">
+        <script src="js/jquery-3.1.1.js"></script>
         <!-- External link (relative) to your main stylesheet -->
         <link rel="stylesheet" href="css/screen.css">
         <!-- External link (relative) to your javascript file -->
@@ -12,20 +13,30 @@
     <body>
       <div class="OuterPanel">
 		      <div class="HeaderPanel">
-            <a href ="." class="LogoLink"></a>
-            <li><a href="#" class="nav">Home</a></li>
-            <li><a href="#" class="nav">About</a></li>
-            <li ><a href="#" class="nav">Support</a></li>
-            <li><a href="#" class="nav">Modules</a></li>
+            <a href ="index.html" class="LogoLink"></a>
+            <div class ="CommandPanel">
+              <li class="navbuttons">
+                <a href="index.html">
+                  <img src="images/computer.png" alt="Home" id="homeload">
+                </a>
+              </li>
+              <li class="navbuttons">
+                <img onclick="moduleload" src="images/browser-26.png" alt="Modules" id="moduleload">
+              </li>
+              <li class="navbuttons">
+                <img onclick="supportload" src="images/phone.png" alt="Support" id="supportload">
+              </li>
+
+            </div>
           </div>
 		        <div class="NavigationPanel">
-              <span>Admin</span>
+              <span></span>
               <span></span>
             </div>
           <div class="MainPanel" id="siteloader">
               <div class="WelcomePanel">
-                <h2>Welcome</h2>
-                <p>Welcome to your companys website portal</P>
+                <h1>Welcome</h1>
+                <p>Welcome to your companys website portal!</P>
               </div>
           </div>
 			</div>

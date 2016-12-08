@@ -26,7 +26,7 @@ body {
 .HeaderPanel {
     width: 100%;
     height: 55px;
-    background-color: rgb(182,60,53);
+    background-color: #f2f2f2;
     color: #FFF;
     list-style: none;
     margin: 0;
@@ -43,7 +43,7 @@ body {
 
 .nav {
   text-decoration: none;
-  background-color: rgb(33,60,118);
+  background-color: #cbbb74;
   border-radius: 15px;
   padding: 12px 24px 12px 24px;
   margin: auto;
@@ -78,7 +78,7 @@ body {
     bottom: 0px;
     height: 100%;
     width: 50px;
-    background-color: #191919;
+    background-color: #cbbb74;
     -webkit-box-orient: vertical;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -97,6 +97,7 @@ body {
     display: -webkit-flex;
     display: flex;
     flex-grow: 1;
+    background-color: #14425d;
     justify-content: space-around;
     -webkit-animation: fadeEffect 2s;
     animation: fadeEffect 2s;

@@ -3,7 +3,7 @@
 
 
 $('#moduleload').click(function(){
-  $("#siteloader").html('<object data="http://10.0.0.70:8000/inventory"/>');
+  $("#siteloader").html('<object data="http://71.81.98.210:8000/inventory"/>');
 });
 
 $('#supportload').click(function(){

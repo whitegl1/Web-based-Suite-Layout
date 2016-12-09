@@ -107,17 +107,28 @@ body {
 #iconbutton, #moduleload, #supportload, #homeload {
   height: 50px;
   width: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: flex-end;
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#supportload {
+  padding: 0;
 }
 
 .navbuttons {
   width: 50px;
   height: 50px;
-  padding: 5px;
   -webkit-animation: fadeEffect 2s;
   animation: fadeEffect 2s;
   cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+
 }
 
 @-webkit-keyframes fadeEffect{
@@ -132,6 +143,7 @@ body {
 .CommandPanel {
   flex-grow: 1;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
   padding-right: 15px;
   vertical-align: middle;

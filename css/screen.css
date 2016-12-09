@@ -171,6 +171,14 @@ p {
   .navigation {
     justify-content: space-around;
   }
+  .WelcomePanel {
+    width: 200px;
+    height: 100px;
+  }
+  h1 {
+    font-size: 19px;
+    padding-left: 10px;
+  }
 }
 
 @media all and (max-width: 600px) {
